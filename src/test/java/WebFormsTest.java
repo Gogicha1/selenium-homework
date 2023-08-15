@@ -47,14 +47,12 @@ public class WebFormsTest {
             System.out.println("Orange is enabled");
         }
 
-
     }
 
-
-//    @AfterMethod
-//    public static void afterTest(){
-//        driver.quit();
-//    }
+    @AfterMethod
+    public static void afterTest(){
+        driver.quit();
+    }
 
 
 }
